@@ -1,0 +1,77 @@
+body{
+	background-color: #767A7A;
+ 
+}
+
+/* DIV */
+#content{
+	margin-top:130px;
+}
+
+#footer{
+	height:40px;
+	width:100%;
+	filter: none;
+	border: 1px solid #D5D5D5;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	bottom: 0;
+	border-width: 1px 0 0;
+}
+
+#sidebar{
+	top:52px;
+	width:17%;
+	position:fixed;
+	height:100%;
+	border:1px solid #e7e7e7;
+	background-color:#fff;
+}
+
+#sidecontent{
+	width:81%;
+	word-wrap:break-word;
+	margin-top:52px;
+	background-color:rgba(255, 255, 255, 0.8);
+	padding:10px;
+	border-radius:2px;
+}
+
+#menu ul li{
+	list-style-type:none;
+	padding:5px;
+	border-bottom:0;
+}
+
+#menu ul li a:hover{
+	text-decoration:none;
+}
+
+#picture{
+	height:200px;
+	width:200px;
+}
+
+#photo{
+	height:75px;
+	width:75px;
+}
+
+/* CLASS */
+.backcontent{
+	background-color:rgba(255, 255, 255, 0.4);
+}
+
+.menu li{
+	border-bottom:1px solid #E7E7E7;
+}
+
+.balance{
+	cursor:pointer;
+}
+
+.paid{
+	cursor:pointer;
+}
